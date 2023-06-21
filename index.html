@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <script src="js/modal.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+
+    <div class="container-fluid">
+
+
+            <div class="modal-desc" id="modal-desc">
+                <h2 class="text-center">Оставьте заявку</h2>
+                
+                <form action="">
+
+                    <label class="modal-desc-label" for="">Виберите страну гражданином которой вы являетесь?</label>
+                    <br>
+                        <select class="modal-desc-input" name="" id="">
+                            <option value="">Страна</option>
+                        </select>
+                    <br>
+                        <label class="modal-desc-label" for="">Укажите ваш возраст</label>
+                    <br>
+                        <select class="modal-desc-input" name="" id="">
+                            <option value="">Возраст</option>
+                        </select>
+                    <br>
+                        <label class="modal-desc-label" for="">Ваше Имя</label>
+                    <br>
+                        <input class="modal-desc-input" type="text" placeholder="Имя">
+                    <br>
+                    <label class="modal-desc-label" for="">Ваша Фамилия</label>
+                    <br>
+                        <input class="modal-desc-input" type="text" placeholder="Фамилия">
+                    <br>
+                        <label class="modal-desc-label" for="">Номер телефона</label>
+                    <br>
+                        <input class="modal-desc-input" type="text" placeholder="+7 (987) 123 45 67">
+                    <br>
+
+                    <button class="modal-button">Оставить заявку</button>
+
+                </form>
+            </div>
+
+        
+            <img class="head-back-img-1" src="img/head-back-img.svg" alt="#">
+            <img class="head-back-img-2" src="img/head-back-img.svg" alt="#">
+
+
+            <div class="row head-block justify-content-center">
+                <img class="head-back-img-mobile" src="img/head-back-img-mobile.png" alt="#">
+            </div>
+         
+                    
+
+                <div class="row head-block justify-content-center head-block-desc-v">
+            <div class="col-xl-6 col-lg-12">
+                    <h1 class="head-title text-center">Финансовый кризис —
+                        <br>время большого заработка!</h1>
+                    <p class="col-lx-12 head-text text-center">Зарегистрируйтесь и убедитесь уже сегодня, как зарабатывать 
+                            на колебаниях газа, нефти, рубля и других активов</p>
+            </div>
+        </div>
+        
+        <div class="row head-block justify-content-center head-block-desc-v">
+        <div class="col-xl-5 col-lg-12">
+          
+            <ul class="head-list">
+                <li><img class="head-list-img" src="img/head-list-img.svg" alt="#"> Газ, нефть, золото и другие активы</li>
+                <li><img class="head-list-img" src="img/head-list-img.svg" alt="#"> Криптовалюты</li>
+                <li><img class="head-list-img" src="img/head-list-img.svg" alt="#"> Банковский сектор</li>
+            </ul>
+     
+        </div> 
+        </div>
+
+        
+
+        <div class="row head-block justify-content-center">
+            <button class="head-button" onclick="openModal()">Нвчать</button>
+        </div>
+
+        <!-- mobile -->
+
+        <div class="row head-block justify-content-center head-block-mobile-v">
+            <div class="col-xl-6 col-lg-12">
+                    <h1 class="head-title text-center">Финансовый кризис —
+                        <br>время большого <br>заработка!</h1>
+            </div>
+        </div>
+        
+        <div class="row head-block justify-content-center head-block-mobile-v">
+            <ul class="head-list">
+                <li><img class="head-list-img" src="img/head-list-img.svg" alt="#">Газ, нефть, золото<br> <span class="head-list-margin-span">и другие активы</span></li>
+                <li><img class="head-list-img" src="img/head-list-img.svg" alt="#">Криптовалюты</li>
+            </ul>  
+        </div>
+
+        <div class="row head-block justify-content-center head-block-mobile-v">
+            <div class="col-xl-6 col-md-6 col-lg-12">
+                    <p class="col-lx-12 head-text text-center">Зарегистрируйтесь и узнайте уже сегодня, как зарабатывать на колебаниях газа, нефти, рубля и других активов</p>
+            </div>
+        </div>
+
+        <div class="row head-block justify-content-center">
+            <div class="img-head-back-container">
+                <img src="img/mobile-back-img.png" class="mobile-back-img" alt="#">
+            </div>
+        </div>
+
+        <div class="row head-block justify-content-center">
+            <button class="head-button-mobile" onclick="openModal()">Получить доступ</button>
+        </div>
+
+
+    
+        <!-- mobile end -->
+
+        <!-- head end -->
+
+        <div class="row section-2 justify-content-center">
+            <img src="img/s2-back.png" class="s2-back" alt="#">
+            <img src="img/s2-mobile-back-img.png" class="s2-back-mobile" alt="#">
+            <img src="img/s3-back-img.png" class="s3-back-img-1" alt="#">
+            <img src="img/s3-back-img.png" class="s3-back-img-2" alt="#">
+            <div class="col-xl-6 text-center capital-desc">
+                <h2>Капитал Престиж +</h2>
+                <h3 >"Лучший Форекс-Брокер"</h3>
+                <p>на выставке <br class="display-mobile-none">FinExpo Egypt 2022</p>
+                <p><img src="img/s3-back-img.png" class="display-mobile-none s3-back-img-mobile" alt="#"></p>
+            </div>
+        </div>
+
+
+        <!-- sectiob-2 end -->
+        <div class="s3-container">
+        <img src="img/s3-back-border.png" class="s3-back-border display-mobile-off" alt="#">
+        <img src="img/s3-back-border-mobile.png" class="s3-back-border-mobile display-mobile-none" alt="#">
+        <div class="row section-3 justify-content-center">
+        <div class="col-xl-7">
+            <h2 class="text-center s3-desc-p">Стабильный заработок - <br class="display-mobile-none">приоритет №1</h2>
+        </div>
+        </div>
+
+        <div class="row section-3 justify-content-center">
+            <div class="section-3-content text-center col-xl-3">
+                <p><img src="img/s3-img.png" class="s3-img" alt="#"></p>
+                <p class="text-center s3-p1-left">Инвестиции в трейдинг — <br>стабильный и прибыльный <br>инструмент, если им управляют
+                    <br>профессиональные 
+                    <br>специалисты-трейдеры</p>
+            </div>
+            <div class="section-3-content text-center col-lg-4">
+                <h3>150 000 <span>₽</span></h3>
+                <p class="text-center s3-p2-top">Минимальная доходность наших <br>инвесторов в период с 01.01.2023<br class="display-mobile-none"> по <br class="display-mobile-off">01.05.2023. Полный список <br>инвестиционных счетов доступен <br>после регистрации</p>
+            </div>
+            <div class="section-3-content text-center col-xl-3 ">
+                <h3 class="s3-dol">150<span> $</span></h3>
+                <p class="text-center s3-p2-left">Минимальный размер <br>инвестиций<br class="display-mobile-off"> 
+                    вместе с Капитал-<br class="display-mobile-none">Престиж + <br class="display-mobile-off">всего 150$ США</p>
+            </div>
+        </div>
+            
+        </div>
+
+        <!-- section 3 end-->
+
+        <div class="row footer justify-content-center">
+            <img src="img/footer-img.png" class="footer-img" alt="#">
+        </div>
+
+        <div class="row footer justify-content-center">
+            <h2 class="col-xl-6 text-center footer-h2">Безопасность<br class="display-mobile-none"> ваших вложений</h2>
+        </div>
+
+        <div class="row footer justify-content-center">
+        <p class="col-xl-7 text-center all-invest-p">Все инвестиционные сервисы<br class="display-mobile-none"> Капитал Престиж + <br class="display-mobile-none">прошли проверку 
+            <br class="display-mobile-off">крупного независимого <br class="display-mobile-none">финансового аудитора из России.</p>
+        </div>
+
+        <div class="row footer text-center justify-content-center">
+            <p><img src="img/footer-img-2.png" class="footer-img-2 col-xl-2 display-mobile-none" alt="#"></p>
+        </div>
+
+        <!-- desc version -->
+        <div class="row footer text-center justify-content-center display-mobile-off footer-desc-v">
+            <p class="footer-p-1">Политика конфиденциальности</p>
+                <img src="img/footer-img-2.png" class="footer-img-2" alt="#">
+                <p class="footer-p-2">Лицензионное соглашение</p>
+        </div>        
+        <!-- desc version end -->
+
+        <div class="row footer text-center justify-content-center display-mobile-none">
+            <p class="footer-p-1">Политика конфиденциальности</p>
+        </div>
+        <div class="row footer text-center justify-content-center display-mobile-none">
+        <p class="footer-p-2">Лицензионное соглашение</p>
+        </div>
+
+
+
+
+                    
+         
+                
+        
+        
+            
+
+
+
+    </div>
+</body>
+</html>

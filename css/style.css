@@ -4,7 +4,7 @@
 .modal-desc {
     height: 725px;
     width: 641px;
-    position: absolute;
+    position: fixed;
     top: 200px;
     left: 200px;
     z-index: 999;
@@ -95,7 +95,6 @@
 .head-block-container {
     background: #272A35;
     color: #ffffff;
-    border: 1px solid red;
     position: relative;
 }
 
@@ -118,23 +117,20 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
-    line-height: 26px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 21px;
-
 }
 
 .head-list>li {
     margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 25px;
+    width: 500px;
 }
 
 
@@ -433,7 +429,7 @@
     .modal-desc {
         height: 652px;
         width: 333px;
-        position: absolute;
+        position: fixed;
         top: 200px;
         left: 200px;
         z-index: 9999;
@@ -500,6 +496,8 @@
         left: 50%;
         transform: translate(-50%, 0);
     }
+
+    /* modal end */
 
     .display-mobile-none {
         display: flex;
